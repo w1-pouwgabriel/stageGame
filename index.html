@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello World, Pixi!</title>
+        <style>
+            canvas{
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .winContainer{
+                width: 900px;
+                height: 900px;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                margin: auto;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            .winTitle{
+                font-family: calibri;
+                text-align: center;
+                margin-top: 100px;
+            }
+            .refreshPageBtn{
+                box-shadow: inset 0 0 0 4px #58afd1;
+                display: block;
+                margin: auto;
+                color: #58afd1;
+                background: none;
+                border: none;
+                cursor: pointer;
+                line-height: 1.5;
+                font: 700 1.2rem 'Roboto Slab', sans-serif;
+                padding: 1em 2em;
+                letter-spacing: 0.05rem;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="./externals/pixi.min.js"></script>
+        <script src="./dist/bundle.js"></script>
+    </body>
+</html>
